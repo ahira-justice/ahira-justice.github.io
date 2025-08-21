@@ -1,0 +1,38 @@
+/* Rouge / Pygments GitHub Dark Theme */
+.highlight {
+  background: #24292e;
+  color: #e1e4e8;
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.highlight pre {
+  margin: 0;
+  background: transparent;
+  color: inherit;
+}
+
+.highlight .c { color: #6a737d; font-style: italic } /* Comment */
+.highlight .err { color: #f97583 } /* Error */
+.highlight .k { color: #d73a49 } /* Keyword */
+.highlight .o { color: #d73a49 } /* Operator */
+.highlight .ch, .highlight .cm { color: #6a737d; font-style: italic }
+.highlight .cp { color: #6a737d }
+.highlight .cpf { color: #6a737d }
+.highlight .gd { color: #f97583; background-color:#ffeef0 }
+.highlight .gi { color: #34d058; background-color:#f0fff4 }
+.highlight .p { color: #e1e4e8 }
+.highlight .na { color: #6f42c1 } /* Name.Attribute */
+.highlight .nb { color: #005cc5 } /* Builtin */
+.highlight .nc { color: #6f42c1 } /* Class */
+.highlight .no { color: #005cc5 } /* Constant */
+.highlight .nd { color: #6f42c1 } /* Decorator */
+.highlight .nf { color: #6f42c1 } /* Function */
+.highlight .nn { color: #e36209 }
+.highlight .nv { color: #e36209 }
+.highlight .s { color: #032f62 } /* String */
+.highlight .se { color: #032f62 }
+.highlight .si { color: #032f62 }
+.highlight .sr { color: #032f62 }
+.highlight .ss { color: #032f62 }

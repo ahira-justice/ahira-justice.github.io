@@ -1,0 +1,25 @@
+---
+layout: default
+title: Ahira's Blog
+permalink: /blog.html
+---
+
+<section class="jumbotron text-center">
+  <div class="container pb-5">
+    <h1 class="jumbotron-heading">Blog</h1>
+    <p class="lead text-muted">Polymath — I read a lot, so I know stuff</p>
+  </div>
+</section>
+
+<div class="container mb-5">
+  <ul class="list-unstyled">
+    {% for post in site.posts %}
+    <li class="mb-4">
+      <h5 class="mb-1">
+        <a href="{{ post.url }}" class="text-dark">{{ post.title }}</a>
+      </h5>
+      <small class="text-muted">{{ post.date | date: "%B %d, %Y" }}</small>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
